@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,89 +8,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Yauhen Makarevich CV</title>
-    
+   <link rel="stylesheet" href="/css/style.css">
 </head>
 
-<body>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        .content {
-            width: 70%;
-            margin: 0 auto;
-        }
-
-        header {
-            position: relative;
-            padding-top: 20px;
-            margin-bottom: 80px;
-        }
-
-        header h1 {
-            font-size: 56px;
-        }
-
-        .main_foto {
-            position: absolute;
-            right: 20px;
-            top: 20px;
-        }
-
-        .main_foto img {
-            width: 140px;
-        }
-
-        section {
-            margin-bottom: 40px;
-        }
-
-        section h2 {
-            margin-bottom: 0;
-        }
-
-        section .description {
-            margin-left: 20px;
-            margin-right: 20px;
-        }
-
-
-        .list {
-            padding: 0;
-            list-style: none;
-        }
-
-        .list li {
-            margin: 7px 0;
-        }
-
-        .courses .course_description {
-            padding-left: 20px;
-        }
-
-        pre {
-            padding: 10px 0;
-            background-color: rgb(229, 231, 231);
-            font-family: 'Courier New', Courier, monospace;
-        }
-        footer {
-            display: flex;
-             margin: 100px 20px;
-            justify-content: space-between;
-            align-items: flex-end;
-                       
-        }
-    </style>
-
-    <main class="content">
-        <header>
-            <h1>Yauhen Makarevich</h1>
-            <div class="main_foto"><img src="img/cv.jpg" alt="Yauhen Makarevich"></div>
-        </header>
-        <section class="contacts">
+<body> 
+    
+       
+            <header class="header">
+                <div class="burger-menu">
+                  <span class="menu-line"></span>
+                  <span class="menu-line"></span>
+                  <span class="menu-line"></span>
+                </div>
+                <nav>
+                  <button class="close-btn hide"></button>
+                  <ul class="header-nav">
+                    <li>
+                      <a href="#Contacts" class="header-nav-link">Contacts</a>
+                    </li>
+                    <li>
+                      <a href="#summary" class="header-nav-link">Summary</a>
+                    </li>
+                    <li>
+                      <a href="#skills" class="header-nav-link">Skills</a>
+                    </li>
+                    <li>
+                      <a href="#Courses" class="header-nav-link">Courses</a>
+                    </li>
+                    <li>
+                      <a href="#Code example" class="header-nav-link">Code example</a>
+                    </li>
+                    <li>
+                      <a href="#Experience" class="header-nav-link">Experience</a>
+                    </li>
+                    <li>
+                      <a href="#English" class="header-nav-link">English</a>
+                    </li>
+                  </ul>
+                </nav>
+              </header>   
+           
+          
+        <main class="main">
+          <h1>Yauhen Makarevich</h1>
+        <div class="main_foto"><img src="img/cv.jpg" alt="Yauhen Makarevich"></div>
+        
+        <section id="Contacts" class="Contacts">
             <h2>Contacts:</h2>
             <hr>
             <ul class="list description">
@@ -106,7 +70,7 @@
                 </li>
             </ul>
         </section>
-        <section class="summary">
+        <section id="summary" class="summary">
             <h2>Summary:</h2>
             <hr>
             <p class="description">My primary goal is get knowledge for become a developer. That achievement will allow
@@ -114,7 +78,7 @@
                 relocate my family to secure and developed country. I'm ready to learn new things and I have
                 perseverance and desire for this.</p>
         </section>
-        <section class="skills">
+        <section id="skills" class="skills">
             <h2>Skills:</h2>
             <hr>
             <ul class="list description">
@@ -124,7 +88,7 @@
                 <li>◾◾◾◾◽ Photoshop</li>
             </ul>
         </section>
-        <section class="courses">
+        <section id="Courses" class="Courses">
             <h2>Courses:</h2>
             <hr>
             <div class="htmlacademy description">
@@ -132,7 +96,7 @@
                 <p class="course_description">HtmlAcademy:<strong> HTML/ CSS/ JS Basics</strong></p>
             </div>
         </section>
-        <section class="code_example">
+        <section id="Code example" class="Code example">
             <h2>Code example:</h2>
             <hr>
             <pre>
@@ -155,7 +119,7 @@
             };
                 </pre>
         </section>
-        <section class="experience">
+        <section id="Experience" class="Experience">
             <h2>Experience:</h2>
             <hr>
             <p class="description">In the end of <strong>"htmlacademy" courses</strong> the last task was <strong>layout
@@ -164,7 +128,7 @@
                 present time I am studying more complex topics and start to solving tasks on
                 <strong>"Codewars"</strong>.</p>
         </section>
-        <section class="english_level">
+        <section id="English" class="English">
             <h2>English level:</h2>
             <hr>
             <p class="description">I had been studying English since first grade at school. Also I had tutoring lessons
@@ -181,6 +145,7 @@
               <span>My GitHub - </span><a href="https://github.com/zhentosmak">zhentosmak</a>
             </div>
           </footer>
+          <script src=".js/main.js/"></script>
     </main>
 </body>
 
