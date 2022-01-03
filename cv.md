@@ -15,7 +15,7 @@ My primary goal is get knowledge for become a developer. That achievement will a
 - HTML ◾◾◾◾◽
 - CSS/SASS◾◾◾◾◽
 - JavaScript (Basic) $~$ ◾◾◽◽◽
-- Git $~~~~~~~~~~~~~~~~~~~~~$ ◾◾◾◾◽
+- Git ◾◾◾◾◽
 
 ## __Code Example__
 ```
