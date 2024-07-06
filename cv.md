@@ -28,7 +28,7 @@ alert( result );
 ```
 
 ## __Experience__
-In the end of "htmlacademy" courses the last task was layout single page site with using html and css. After courses i have started to learn JavaScript by Youtube lessons. By this lessons I have learned the basics of the language. In present time I am studying more complex topics and start to solving tasks on "Codewars".
+Graduated from the RS course in 2021. But unfortunately, my work was not related to programming, and therefore my skills began to not correspond to current realities. Why do I want to retake the course to delve deeper into technology and meet market demands.
 
 ## __Education__ 
 - __University:__ Belarusian National Technical University
